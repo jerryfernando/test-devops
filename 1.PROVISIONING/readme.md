@@ -76,8 +76,9 @@ create permissions
 
 ### create Access keys
 ![ackey](https://github.com/jerryfernando/test-devops/assets/23428256/4cdd9127-a74e-461a-b150-60800ea50495)
-```bash
 
+### connect aws to local server
+```bash
   aws configure
 ```
 ```
