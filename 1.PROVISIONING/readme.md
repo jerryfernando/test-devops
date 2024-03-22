@@ -52,3 +52,25 @@ sudo chmod +x install_awscli.sh
 
 ./install_awscli.sh
 
+## Create aws iam 
+
+### 1.create iam users
+![user](https://github.com/jerryfernando/test-devops/assets/23428256/7761fe64-253e-4820-b46f-95808797d789)
+
+### 2.create and add policies
+create permissions
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowS3Access",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": "*"
+        }
+    ]
+}
+```
+![policies](https://github.com/jerryfernando/test-devops/assets/23428256/d248a26c-7a0a-46fe-9a68-38b9ea8f7664)
+
