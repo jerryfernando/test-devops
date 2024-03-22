@@ -74,3 +74,19 @@ create permissions
 ```
 ![policies](https://github.com/jerryfernando/test-devops/assets/23428256/d248a26c-7a0a-46fe-9a68-38b9ea8f7664)
 
+### create Access keys
+![ackey](https://github.com/jerryfernando/test-devops/assets/23428256/4cdd9127-a74e-461a-b150-60800ea50495)
+```bash
+
+  aws configure
+```
+```
+AWS Access Key ID [None]: 
+AWS Secret Access Key [None]: 
+Default region name [None]: 
+Default output format [None]:
+```
+
+![aws configure](https://github.com/jerryfernando/Final-task/assets/23428256/a6a7863a-2a60-4c6a-9861-86bc8f22a6b2)
+
+aws ec2 describe-instances
